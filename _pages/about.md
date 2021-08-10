@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 
 Assistant Professor<br>
 Department of Industrial and Systems Engineering (ISyE)<br> University of Wisconsin-Madison<br>
-qiaomin.xie at wisc dot edu<br><br>
+Email: qiaomin.xie at wisc dot edu<br><br>
 
 Qiaomin Xie is an assistant professor in <a href="https://www.engr.wisc.edu/department/industrial-systems-engineering/">Department of Industrial and Systems Engineering (ISyE)</a> at the <a href="https://www.wisc.edu/">University of Wisconsin-Madison</a>. She was previously a visiting assitant professor at <a href="https://www.orie.cornell.edu/orie">School of Operations Research and Information Engineering (ORIE)</a> at <a href="https://www.cornell.edu/">Cornell University</a>. Prior to that, she spent two years as a postdoctoral researcher with LIDS at MIT, and was a research fellow at the Simons Institute during Fall 2016. Qiaomin received her Ph.D. degree in Electrical and Computing Engineering from University of Illinois Urbana Champaign in 2016, and her B.E. degree in Electronic Engineering from Tsinghua University.<br>
 
