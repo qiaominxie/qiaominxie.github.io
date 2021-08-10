@@ -1,24 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a href="https://www.engr.wisc.edu/department/industrial-systems-engineering/">Department of Industrial and Systems Engineering (ISyE)</a> <br> <a href="https://www.wisc.edu/">University of Wisconsin-Madison</a>
+
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    Mechanical Engineering Building<br>
+    1513 University Avenue<br>
+    Madison, WI 53706<br>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Qiaomin Xie is an assistant professor in Department of Industrial and Systems Engineering (ISyE) at University of Wisconsin-Madison. She was previously a visiting assitant professor at School of ORIE at Cornell University. Prior to that, she spent two years as a postdoctoral researcher with LIDS at MIT, and was a research fellow at the Simons Institute during Fall 2016. Qiaomin received her Ph.D. degree in Electrical and Computing Engineering from University of Illinois Urbana Champaign in 2016, and her B.E. degree in Electronic Engineering from Tsinghua University. Her research interests lie in the fields of reinforcement learning, applied probability and stochastic networks. She is the recipient of JP Morgan Faculty Research Award (2021), Google Systems Research Award (2020), UIUC CSL PhD Thesis Award (2017) and the best paper award from IFIP Performance Conference (2011).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+[comment]: <> Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+
+[comment]: <> Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
