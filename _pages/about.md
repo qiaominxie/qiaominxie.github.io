@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 title: Home
 permalink: /
 description: 
@@ -22,11 +22,11 @@ Assistant Professor<br>
 Department of Industrial and Systems Engineering (ISyE)<br> University of Wisconsin-Madison<br>
 Email: qiaomin.xie at wisc dot edu<br><br>
 
-Qiaomin Xie is an assistant professor in <a href="https://www.engr.wisc.edu/department/industrial-systems-engineering/">Department of Industrial and Systems Engineering (ISyE)</a> at the <a href="https://www.wisc.edu/">University of Wisconsin-Madison</a>. She was previously a visiting assistant professor at School of Operations Research and Information Engineering (ORIE)</a> at Cornell University. Prior to that, she spent two years as a postdoctoral researcher with LIDS at MIT, and was a research fellow at the Simons Institute during Fall 2016. Qiaomin received her Ph.D. degree in Electrical and Computing Engineering from University of Illinois Urbana Champaign in 2016, and her B.E. degree in Electronic Engineering from Tsinghua University.<br>
+Qiaomin Xie is an assistant professor in <a href="https://www.engr.wisc.edu/department/industrial-systems-engineering/">Department of Industrial and Systems Engineering (ISyE)</a> at the <a href="https://www.wisc.edu/">University of Wisconsin-Madison</a>. She was previously a visiting assistant professor at School of Operations Research and Information Engineering (ORIE) at Cornell University. Prior to that, she spent two years as a postdoctoral researcher with LIDS at MIT, and was a research fellow at the Simons Institute during Fall 2016. Qiaomin received her Ph.D. degree in Electrical and Computing Engineering from University of Illinois Urbana Champaign in 2016, and her B.E. degree in Electronic Engineering from Tsinghua University.<br>
 
 Her research interests lie in the fields of reinforcement learning, applied probability and stochastic networks, with applications to computer and communication networks. She is the recipient of JP Morgan Faculty Research Award (2021), Google Systems Research Award (2020), UIUC CSL PhD Thesis Award (2017) and the best paper award from IFIP Performance Conference (2011).
 
-## Students
+#### Students
 
 My current research focus is on theoretical foundations of reinforcement learning, scheduling and resource allocation in computer and communication networks. I am looking for PhD students starting from 2022. If you are interested in working with me, please send me an email with you CV.
 
