@@ -13,11 +13,12 @@ nav: true
 
 ### University of Wisconsin-Madison
 
+- ISyE 320: Simulation and Probabilistic Modeling (Spring 2022) <br>
 - ISyE 624: Stochastic Modeling Techniques (Fall 2021) <br>
 
 ### Cornell University
 
-- ORIE 6590: Approximate Dynamic Programming and Reinforcement Learning (Spring 2021)<br>
+- ORIE 6590: <a href="https://courses.cit.cornell.edu/orie6590/">Approximate Dynamic Programming and Reinforcement Learning</a> (Spring 2021)<br>
 - ORIE 3510: Introduction to Engineering Stochastic Processes (Spring 2021)<br>
 - ORIE 2380: Urban Analytics (Fall 2020)<br>
 - ORIE 6500: Applied Stochastic Processes (Spring 2019, Spring 2020)<br>
