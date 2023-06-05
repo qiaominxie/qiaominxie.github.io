@@ -332,6 +332,10 @@ outperforms the well-known probabilistic offloading policy},
   author={Zhang, Zihan and Xie, Qiaomin},
   booktitle={Conference on Learning Theory (COLT)},
   year={2023},
+  abstract={We develop several provably efficient model-free reinforcement learning (RL) algorithms for  infinite-horizon average-reward Markov Decision Processes (MDPs). We consider both online setting and the setting with access to a simulator. In the online setting, we propose model-free RL algorithms based on reference-advantage decomposition. Our algorithm achieves $\tilde O(S^5A^2\mathrm{sp}(h^*)\sqrt{T})$ regret after $T$ steps, where $S\times A$ is the size of state-action space, and 
+   $\mathrm{sp}(h^*)$ the span of the optimal bias function. Our results are the first to achieve optimal dependence in $T$ for weakly communicating MDPs. 
+   In the simulator setting, we propose a model-free RL algorithm that finds an $\epsilon$-optimal policy using $\tilde{O} \left(\frac{SA\mathrm{sp}^2(h^*)}{\epsilon^2}+\frac{S^2A\mathrm{sp}(h^*)}{\epsilon} \right)$ samples, whereas the minimax lower bound is $\Omega\left(\frac{SA\mathrm{sp}(h^*)}{\epsilon^2}\right)$. 
+   Our results are based on two new techniques that are unique in the average-reward setting: 1) better discounted approximation by value-difference estimation; 2) efficient construction of confidence region for the optimal bias function with space complexity $O(SA)$.}
 }
 
 @article{mukherjee2023speed,
