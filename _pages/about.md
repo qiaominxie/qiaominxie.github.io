@@ -26,9 +26,7 @@ Qiaomin Xie is an assistant professor in <a href="https://www.engr.wisc.edu/depa
 
 Her research interests lie in the fields of reinforcement learning, applied probability and stochastic networks, with applications to computer and communication networks. She is the recipient of JP Morgan Faculty Research Award (2021), Google Systems Research Award (2020), UIUC CSL PhD Thesis Award (2017) and the best paper award from IFIP Performance Conference (2011).
 
-#### Students
-
-My current research focus is on theoretical foundations of reinforcement learning, scheduling and resource allocation in computer and communication networks. I am looking for PhD students starting from 2022. If you are interested in working with me, please send me an email with you CV.
+[comment]: <> #### Students. My current research focus is on theoretical foundations of reinforcement learning, scheduling and resource allocation in computer and communication networks. I am looking for PhD students starting from 2022. If you are interested in working with me, please send me an email with you CV.
 
 [comment]: <> Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
