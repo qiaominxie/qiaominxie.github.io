@@ -130,22 +130,22 @@ github: [metadata]
 
 scholar:
 
-  last_name: [Xie]
-  first_name: [Qiaomin, Q.]
+  last_name: [Xie, xie]
+  first_name: [Qiaomin, Q., qiaomin]
 
   style: apa
   locale: en
 
   source: /_bibliography/
   bibliography: papers.bib
-  bibliography_template: bibtemplate
+  bibliography_template: bib
 
   sort_by: year
   order: descending
 
   replace_strings: true
   join_strings: true
-  bibtex_filters:
+  bibtex_filters: [latex, smallcaps, superscript]
 
   details_dir: bibliography
   details_layout: bibtex.html
