@@ -189,7 +189,7 @@ issn = {0163-5999},
 url = {https://doi.org/10.1145/3512798.3512819},
 doi = {10.1145/3512798.3512819},
 abstract = {Reinforcement learning (RL) has received widespread attention across multiple communities, but the experiments have focused primarily on large-scale game playing and robotics tasks. In this paper we introduce ORSuite, an open-source library containing environments, algorithms, and instrumentation for operational problems. Our package is designed to motivate researchers in the reinforcement learning community to develop and evaluate algorithms on operational tasks, and to consider the true multi-objective nature of these problems by considering metrics beyond cumulative reward.},
-journal = {SIGMETRICS Perform. Eval. Rev.},
+journal = {SIGMETRICS Performance Evaluation Review},
 month = {jan},
 pages = {57--61},
 numpages = {5}
@@ -206,4 +206,44 @@ numpages = {5}
   publisher={INFORMS},
   doi={10.1287/opre.2021.2239},
   html={https://pubsonline.informs.org/doi/abs/10.1287/opre.2021.2239?journalCode=opre}
+}
+
+@article{Liu2022rlqn,
+author = {Liu, Bai and Xie, Qiaomin and Modiano, Eytan},
+title = {RL-QN: A Reinforcement Learning Framework for Optimal Control of Queueing Systems},
+year = {2022},
+issue_date = {March 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {7},
+number = {1},
+issn = {2376-3639},
+url = {https://doi.org/10.1145/3529375},
+doi = {10.1145/3529375},
+abstract = {With the rapid advance of information technology, network systems have become increasingly complex and hence the underlying system dynamics are often unknown or difficult to characterize. Finding a good network control policy is of significant importance to achieve desirable network performance (e.g., high throughput or low delay). In this work, we consider using model-based reinforcement learning (RL) to learn the optimal control policy for queueing networks so that the average job delay (or equivalently the average queue backlog) is minimized. Traditional approaches in RL, however, cannot handle the unbounded state spaces of the network control problem. To overcome this difficulty, we propose a new algorithm, called RL for Queueing Networks (RL-QN), which applies model-based RL methods over a finite subset of the state space while applying a known stabilizing policy for the rest of the states. We establish that the average queue backlog under RL-QN with an appropriately constructed subset can be arbitrarily close to the optimal result. We evaluate RL-QN in dynamic server allocation, routing, and switching problems. Simulation results show that RL-QN minimizes the average queue backlog effectively.},
+journal = {ACM Transactions on Modeling and Performance Evaluation of Computing Systems},
+month = {aug},
+articleno = {2},
+numpages = {35},
+keywords = {Queueing networks, reinforcement learning}
+}
+
+@article{xie2023cce_mor,
+author = {Xie, Qiaomin and Chen, Yudong and Wang, Zhaoran and Yang, Zhuoran},
+title = {Learning Zero-Sum Simultaneous-Move Markov Games Using Function Approximation and Correlated Equilibrium},
+year = {2023},
+issue_date = {February 2023},
+publisher = {INFORMS},
+address = {Linthicum, MD, USA},
+volume = {48},
+number = {1},
+issn = {0364-765X},
+url = {https://doi.org/10.1287/moor.2022.1268},
+doi = {10.1287/moor.2022.1268},
+abstract = {We develop provably efficient reinforcement learning algorithms for two-player zero-sum finite-horizon Markov games with simultaneous moves. To incorporate function approximation, we consider a family of Markov games where the reward function and transition kernel possess a linear structure. Both the offline and online settings of the problems are considered. In the offline setting, we control both players and aim to find the Nash equilibrium by minimizing the duality gap. In the online setting, we control a single player playing against an arbitrary opponent and aim to minimize the regret. For both settings, we propose an optimistic variant of the least-squares minimax value iteration algorithm. We show that our algorithm is computationally efficient and provably achieves an O~(d3H3T) upper bound on the duality gap and regret, where d is the linear dimension, H the horizon and T the total number of timesteps. Our results do not require additional assumptions on the sampling model. Our setting requires overcoming several new challenges that are absent in Markov decision processes or turn-based Markov games. In particular, to achieve optimism with simultaneous moves, we construct both upper and lower confidence bounds of the value function, and then compute the optimistic policy by solving a general-sum matrix game with these bounds as the payoff matrices. As finding the Nash equilibrium of a general-sum game is computationally hard, our algorithm instead solves for a coarse correlated equilibrium (CCE), which can be obtained efficiently. To our best knowledge, such a CCE-based scheme for optimism has not appeared in the literature and might be of interest in its own right.Funding: Q. Xie is partially supported by the National Science Foundation [Grant CNS-1955997] and by J.P. Morgan. Y. Chen is partially supported by the National Science Foundation [Grants CCF-1657420, CCF-1704828, and CCF-2047910]. Z. Wang acknowledges the National Science Foundation [Grants 2048075, 2008827, 2015568, and 1934931], the Simons Institute (Theory of Reinforcement Learning), Amazon, J.P. Morgan, and Two Sigma for their support.},
+journal = {Mathematics of Operations Research},
+month = {feb},
+pages = {433–462},
+numpages = {30},
+keywords = {Markov games, function approximation, correlated equilibrium, secondary: 91A15, Primary: 68T05, reinforcement learning}
 }
