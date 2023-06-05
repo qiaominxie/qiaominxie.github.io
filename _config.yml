@@ -130,8 +130,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: [Xie, xie]
-  first_name: [Qiaomin, Q., qiaomin]
+  last_name: Xie
+  first_name: Qiaomin
 
   style: apa
   locale: en
