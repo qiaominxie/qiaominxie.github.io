@@ -406,14 +406,16 @@ outperforms the well-known probabilistic offloading policy},
       title={Effectiveness of Constant Stepsize in Markovian LSA and Statistical Inference}, 
       author={Dongyan Huo and Yudong Chen and Qiaomin Xie},
       year={2024},
-      booktitle={AAAI Conference on Artificial Intelligence}
+      booktitle={AAAI Conference on Artificial Intelligence},
+      abstract={In this paper, we study the effectiveness of using a constant stepsize in statistical inference via linear stochastic approximation (LSA) algorithms with Markovian data. After establishing a Central Limit Theorem (CLT), we develop an inference procedure that uses the averaged LSA iterates to construct confidence intervals (CIs). Our procedure leverages the fast mixing property of constant-stepsize LSA for better covariance estimation, and employs Richardson-Romberg (RR) extrapolation to reduce the bias induced by a constant stepsize and Markovian data. We develop theoretical results for guiding stepsize selection in RR extrapolation, and identify several important settings where the bias provably vanishes even without extrapolation. We conduct extensive numerical experiments and compare against the classical diminishing stepsize regime. Our results show that using a constant stepsize enjoys easy hyperparameter tuning, fast convergence and consistently better CI coverage, especially with limited data.}
 }
 
 @inproceedings{chen2024exact_heavy_tailed,
       title={Exact Policy Recovery in Offline RL with Both Heavy-Tailed Rewards and Data Corruption}, 
       author={Yiding Chen and Xuezhou Zhang and Qiaomin Xie and Xiaojin Zhu},
       year={2024},
-      booktitle={AAAI Conference on Artificial Intelligence}
+      booktitle={AAAI Conference on Artificial Intelligence},
+      abstract={We study offline reinforcement learning (RL) with heavy-tailed reward distribution and data corruption: (i) Moving beyond subGaussian reward distribution, we require only a bounded $(1+\gamma)$-th moment for $\gamma \in (0,1]$; (ii) We allow corruptions where an attacker can arbitrarily modify $\epsilon$-fraction of the rewards and transitions in the dataset. We first derive a sufficient optimality condition for generalized Pessimistic Value Iteration (PEVI), which allows various estimators with proper confidence bounds and can be applied to multiple learning settings. In order to handle the data corruption and heavy-tailed reward setting, we prove that the trimmed-mean estimation achieves a minimax optimal error rate $O\big(\sigma \epsilon^{\frac{\gamma}{1+\gamma}}\big)$ for robust mean estimation under heavy-tailed distributions. In the PEVI algorithm, we plug in the trimmed mean estimation and the confidence bound to solve the robust offline RL problem. Standard analysis reveals that data corruption induces a bias term $O\big(H\sigma\epsilon^{\frac{\gamma}{1+\gamma}}+\epsilon H\big)$ in the suboptimality gap, which gives the false impression that any data corruption prevents optimal policy learning. By using the optimality condition for the generalized PEVI, we show that as long as the bias term is less than the ``action gap'', the policy returned by PEVI achieves the optimal value given sufficient data.}
 }
 
 @inproceedings{mcmahan2024attack_defense,
