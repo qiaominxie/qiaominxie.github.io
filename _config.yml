@@ -140,8 +140,8 @@ scholar:
   bibliography: papers.bib
   bibliography_template: bib
 
-  sort_by: year
-  order: descending
+  sort_by: year, month
+  order: descending, descending
 
   replace_strings: true
   join_strings: true
