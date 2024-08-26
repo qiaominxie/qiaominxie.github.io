@@ -9,7 +9,7 @@ nav: true
 ### Ph.D. Students
 
 - <a href="https://sites.google.com/wisc.edu/yixuanzhang/">Yixuan Zhang</a> (2022-) <br> 
-- Tianhao Wu (2024-)
+- <a href="https://tianhao00.github.io/">Tianhao Wu</a> (2024-)
 
 ### Postdocs
 
