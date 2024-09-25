@@ -12,11 +12,8 @@ nav: true
 
 
 ### University of Wisconsin-Madison
-- ISyE 320: Simulation and Probabilistic Modeling (Fall 2023) <br>
-- ISyE 320: Simulation and Probabilistic Modeling (Spring 2023) <br>
-- ISyE 624: Stochastic Modeling Techniques (Spring 2023) <br>
-- ISyE 320: Simulation and Probabilistic Modeling (Spring 2022) <br>
-- ISyE 624: Stochastic Modeling Techniques (Fall 2021) <br>
+- ISyE 320: Simulation and Probabilistic Modeling (Spring 2022, Spring 2023, Fall 2023, Spring 2025) <br>
+- ISyE 624: Stochastic Modeling Techniques (Fall 2021, Spring 2023, Spring 2024, Spring 2025) <br>
 
 ### Cornell University
 
