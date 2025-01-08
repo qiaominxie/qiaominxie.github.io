@@ -18,9 +18,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Assistant Professor<br>
+Assistant Professor<br>  
 Department of Industrial and Systems Engineering (ISyE)<br> 
-Affiliated with Department of Computer Sciences<br>
+Affiliate Faculty, Department of Computer Sciences<br>
 University of Wisconsin-Madison<br>
 Email: qiaomin.xie at wisc dot edu<br><br>
 
