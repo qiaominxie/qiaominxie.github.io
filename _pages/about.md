@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Assistant Professor<br>  
+Assistant Professor<br>
 Department of Industrial and Systems Engineering (ISyE)<br> 
 Affiliate Faculty, Department of Computer Sciences (CS)<br>
 University of Wisconsin-Madison<br>
