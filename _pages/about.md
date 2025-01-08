@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 
 Assistant Professor<br>  
 Department of Industrial and Systems Engineering (ISyE)<br> 
-Affiliate Faculty, Department of Computer Sciences<br>
+Affiliate Faculty, Department of Computer Sciences (CS)<br>
 University of Wisconsin-Madison<br>
 Email: qiaomin.xie at wisc dot edu<br><br>
 
