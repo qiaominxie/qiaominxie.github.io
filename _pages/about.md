@@ -13,7 +13,7 @@ profile:
     1513 University Avenue<br>
     Madison, WI 53706<br>
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
