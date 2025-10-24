@@ -29,6 +29,8 @@ Qiaomin Xie is an assistant professor in the <a href="https://www.engr.wisc.edu/
 Her research interests lie in the fields of reinforcement learning, game theory, applied probability and stochastic networks, with applications to computer and communication networks. She is a recipient of <a href="https://engineering.wisc.edu/news/xie-hopes-to-advance-reinforcement-learning-with-nsf-career-award/">National Science Foundation CAREER Award (2024)</a>, JP Morgan Faculty Research Award (2021), Google Systems Research Award (2020), UIUC CSL PhD Thesis Award (2017), and the best paper award from IFIP Performance Conference (2011). She was named a <a href="assets/pdf/Notable_Women_in_RL.pdf">Notable Woman in Reinforcement Learning (2024)</a>.
 
 
+I am recruiting PhD students starting in 2026. UW-Madison graduate students interested in joining my research group, please send me an email with your CV. If you are not a graduate student at UW-Madison yet, but are interested in working with me, please apply to <a href="https://grad.wisc.edu/apply/"> UW-Madison ISyE or CS graduate program</a>.
+
 [comment]: <> Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 [comment]: <> Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
