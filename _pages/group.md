@@ -13,7 +13,7 @@ nav: true
 
 ### Postdocs
 
-- <a href="https://kwonchungli.github.io/">Jeongyeol Kwon</a> (2024-, jointly sponsored with Robert Nowak and Stephen Wright). First position: research scientist at Meta <br> 
+- <a href="https://kwonchungli.github.io/">Jeongyeol Kwon</a> (2024-2025, jointly sponsored with Robert Nowak and Stephen Wright). First position: research scientist at Meta <br> 
 
 ### Alumni
 - <a href="https://subhojyoti.github.io/">Subhojyoti Mukerjee</a> (Ph.D. in ECE, 2025, co-advised with Robert Nowak and Josiah Hanna). First position: research scientist at Adobe Research <br>
