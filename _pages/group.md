@@ -1,10 +1,9 @@
 ---
-
 layout: page
 permalink: /group/
 title: Group
-
-## nav: true
+nav: true
+---
 
 ### Ph.D. Students
 
