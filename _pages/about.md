@@ -7,7 +7,7 @@ description:
 
 profile:
   align: right
-  image: prof_pic_small.jpg
+  image: prof_pic_small.jpeg
   address: >  
     M1002 Engineering Centers Building<br>
     1513 University Avenue<br>
