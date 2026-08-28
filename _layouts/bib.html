@@ -12,7 +12,7 @@
   {% endif %}
   </div> -->
 
-  <div id="{{entry.key}}" class="col-sm-8" style="max-width: 100%;">
+  <div class="col-sm-8" style="max-width: 100%;">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
@@ -80,6 +80,14 @@
       {% if entry.award %}
         <div class="award-badge" style="display:inline-block; margin-top:6px; color:var(--global-theme-color); font-weight:700; font-size:0.9em;">
           {{ entry.award | replace: '||', '<br>' }}
+        </div>
+      {% endif %}
+      {% if page.show_publication_tags and entry.website_tags %}
+        <div class="publication-tags" aria-label="Research tags">
+          {% assign publication_tags = entry.website_tags | split: '||' %}
+          {% for tag in publication_tags %}
+            <span>{{ tag | strip }}</span>
+          {% endfor %}
         </div>
       {% endif %}
     {% endif %}

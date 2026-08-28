@@ -222,6 +222,27 @@ blockquote {
   }
 }
 
+.homepage-scholar-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.35rem;
+  font-size: 1.2rem;
+  line-height: 1;
+  vertical-align: -0.08em;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+  &:focus-visible {
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0 2px var(--global-bg-color), 0 0 0 4px var(--global-theme-color);
+    outline: none;
+  }
+}
+
 
 // Footer
 footer.fixed-bottom {
@@ -380,13 +401,19 @@ footer.sticky-bottom {
       font-size: 1.5rem;
     }
   }
-  h2.year {
+  h2.year,
+  h3.year {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
     text-align: right;
+  }
+
+  h3.year {
+    font-size: 1.75rem;
+    font-weight: 500;
   }
   ol.bibliography {
     list-style: none;
@@ -479,6 +506,170 @@ footer.sticky-bottom {
       }
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
+      }
+    }
+  }
+}
+
+.publications-page {
+  margin-top: 1.25rem;
+
+  .publication-controls {
+    background: var(--global-code-bg-color);
+    border: 1px solid $grey-color-light;
+    border-radius: 0.75rem;
+    margin-bottom: 2.75rem;
+    padding: 1rem;
+  }
+
+  .publication-controls-label {
+    color: var(--global-text-color-light);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    margin: 0 0 0.65rem;
+    text-transform: uppercase;
+  }
+
+  .publication-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  .publication-filter {
+    appearance: none;
+    background: var(--global-bg-color);
+    border: 1px solid $grey-color-light;
+    border-radius: 999px;
+    color: var(--global-text-color);
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.82rem;
+    line-height: 1.25;
+    padding: 0.45rem 0.8rem;
+    transition: border-color 120ms ease, color 120ms ease, background-color 120ms ease;
+
+    &:hover,
+    &:focus {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+      outline: none;
+    }
+
+    &:focus-visible {
+      box-shadow: 0 0 0 3px var(--global-code-bg-color), 0 0 0 5px var(--global-theme-color);
+    }
+
+    &.is-active {
+      background: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+      color: $white-color;
+    }
+  }
+
+  .publication-filter-secondary {
+    border-style: dashed;
+  }
+
+  .publication-topic {
+    margin-bottom: 4rem;
+    scroll-margin-top: 6rem;
+  }
+
+  .publication-topic-header {
+    align-items: flex-start;
+    border-bottom: 2px solid var(--global-theme-color);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 3.25rem minmax(0, 1fr);
+    margin-bottom: 1.35rem;
+    padding-bottom: 0.85rem;
+
+    h2 {
+      color: var(--global-text-color);
+      font-size: 1.55rem;
+      line-height: 1.2;
+      margin: 0 0 0.35rem;
+    }
+
+    p {
+      color: var(--global-text-color-light);
+      line-height: 1.5;
+      margin: 0;
+      max-width: 42rem;
+    }
+  }
+
+  .publication-topic-number {
+    color: var(--global-theme-color) !important;
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding-top: 0.2rem;
+  }
+
+  .publication-year-header {
+    margin-bottom: 2rem;
+  }
+
+  .publication-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin: 0.45rem 0 0.1rem;
+
+    span {
+      background: var(--global-code-bg-color);
+      border-radius: 999px;
+      color: var(--global-text-color-light);
+      font-size: 0.7rem;
+      line-height: 1.25;
+      padding: 0.2rem 0.5rem;
+    }
+  }
+
+  ol.bibliography li {
+    border-bottom: 1px solid $grey-color-light;
+    margin-bottom: 0;
+    padding: 1rem 0;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .publications-page {
+    .publication-controls {
+      border-left: 0;
+      border-radius: 0;
+      border-right: 0;
+      margin-left: -15px;
+      margin-right: -15px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .publication-filter {
+      font-size: 0.78rem;
+    }
+
+    .publication-topic {
+      margin-bottom: 3rem;
+    }
+
+    .publication-topic-header {
+      gap: 0.55rem;
+      grid-template-columns: 2.4rem minmax(0, 1fr);
+
+      h2 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 0.9rem;
       }
     }
   }

@@ -22,9 +22,10 @@ Assistant Professor<br>
 Department of Industrial and Systems Engineering (ISyE)<br> 
 Department of Computer Sciences (CS, affiliate)<br>
 University of Wisconsin-Madison<br>
-Email: qiaomin.xie at wisc dot edu<br><br>
+Email: qiaomin.xie at wisc dot edu
+<a class="homepage-scholar-link" href="https://scholar.google.com/citations?user=RVNcy4EAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Qiaomin Xie on Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a><br><br>
 
-<b>I am recruiting PhD students starting 2026. UW-Madison students interested in joining my group: please email me with your CV. Others please apply to the <a href="https://grad.wisc.edu/apply/"> UW-Madison ISyE or CS graduate programs</a>.</b>
+[comment]: <>I am recruiting PhD students starting 2026. UW-Madison students interested in joining my group: please email me with your CV. Others please apply to the <a href="https://grad.wisc.edu/apply/"> UW-Madison ISyE or CS graduate programs</a>.
 
 Qiaomin Xie is an assistant professor in the <a href="https://www.engr.wisc.edu/department/industrial-systems-engineering/">Department of Industrial and Systems Engineering (ISyE)</a> and the <a href="https://www.cs.wisc.edu/"> Department of Computer Sciences</a> (affiliate) at the <a href="https://www.wisc.edu/">University of Wisconsin-Madison</a>. She was previously a visiting assistant professor at School of Operations Research and Information Engineering (ORIE) at Cornell University. Prior to that, she was a postdoctoral researcher with LIDS at MIT, and a research fellow at the Simons Institute. Qiaomin received her Ph.D. degree in Electrical and Computing Engineering from University of Illinois Urbana Champaign, and her B.E. degree in Electronic Engineering from Tsinghua University.<br>
 
